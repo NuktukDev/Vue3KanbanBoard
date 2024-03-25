@@ -100,7 +100,7 @@ const onAddCard = (event: KanbanCardInterface) => {
 const removeCard = (event: DragEvent) => {
   if (event.dataTransfer) {
     const draggingIndex = cards.findIndex(
-      (c) => c?.id.toString() === event.dataTransfer.getData('cardID')
+      (c) => c?.id.toString() === event.dataTransfer?.getData('cardID')
     )
     cards.splice(draggingIndex, 1)
   }

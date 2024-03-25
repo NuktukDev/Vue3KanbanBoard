@@ -4,7 +4,13 @@ import KanbanBoard from '@/components/KanbanBoard.vue'
 
 <template>
   <div id="app">
-    <main>
+    <a
+      href="https://github.com/NuktukDev/Vue3KanbanBoard"
+      title="GitHub Repo"
+      class="hidden md:block text-center"
+      >Click for GitHub Repo</a
+    >
+    <main class="relative">
       <KanbanBoard />
     </main>
   </div>
