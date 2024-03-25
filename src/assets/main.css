@@ -1,0 +1,18 @@
+@import './base.css';
+body {
+  overflow: hidden;
+}
+.draggable {
+  background: #fff;
+  cursor: move;
+}
+
+.ghost {
+  opacity: 0.5;
+  background: #fff;
+  border: 1px dashed #ccc;
+}
+
+.drag {
+  pointer-events: none;
+}
